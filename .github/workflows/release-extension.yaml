@@ -31,4 +31,4 @@ jobs:
       with:
         name: Chrome Extension ${{env.release_tag}}
         files: |
-          build/chrome-extension-${{env.release_tag}}.zip
+          chrome-extension-${{env.release_tag}}.zip
